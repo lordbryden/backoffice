@@ -1,0 +1,39 @@
+ion-back-button {
+    --color: #000;
+    /* Set the color of the back button icon (black in this case) */
+    --icon-font-size: 24px;
+    /* Adjust the icon size as needed */
+    position: relative;
+    /* Required for positioning the border */
+    display: inline-block;
+    /* Required for border to wrap around the button */
+}
+
+ion-back-button::before {
+    content: "";
+    /* Required for creating a pseudo-element */
+    position: absolute;
+    /* Position the border absolutely */
+    top: 50%;
+    /* Position the border vertically centered */
+    left: 50%;
+    /* Position the border horizontally centered */
+    transform: translate(-50%, -50%);
+    /* Adjust the position of the border */
+    width: 40px;
+    /* Set the width of the border circle */
+    height: 40px;
+    /* Set the height of the border circle */
+    border-radius: 50%;
+    /* Make the border circular */
+    border: 2px solid orange;
+    /* Set the border style and color */
+    padding: 4px;
+    /* Add some padding between the button and the border */
+}
+
+.margindiv {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}

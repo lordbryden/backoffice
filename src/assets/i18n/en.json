@@ -1,0 +1,167 @@
+{
+  "LANDING":{
+    "slogan": "Boundless studies",
+    "started": "Get Started",
+    "back": "Back to Studies",
+    "privacy": "Read Privacy Policy"
+  },
+
+  "HOME": {
+    "loginwith": "Log in with",
+    "LoginWithUsername": "Username",
+    "LoginWithPhonenumber": "Phone Number",
+    "Register": "Sign Up",
+    "socialMedia": "Or via social media"
+  },
+
+  "LOGIN": {
+    "SignIn": "Sign In",
+    "Username": "Username",
+    "Phonenumber":"Phone Number",
+    "Password": "Password",
+    "Forgot": "Forgot Password?",
+    "clickhere": "click here",
+    "signin": "SIGN IN",
+    "AllDeviceLogout": "Log out of all Devices",
+    "NoAccount": "Don't have and account?",
+    "SignUpHere": "Sign Up Here"
+  },
+
+  "REGISTER": {
+    "create": "Create Account",
+    "name": "Full Name",
+    "Username": "Username",
+    "Phonenumber":"Phone Number",
+    "Email": "Email",
+    "Password": "Password",
+    "Confirm": "Confirm Password?",
+    "Agree": "Agree to the ",
+    "terms": "Terms",
+    "and": "And",
+    "Conditions": "Conditions",
+    "register": "REGISTER",
+    "HaveAccount": "Already have an account?",
+    "SignUpHere": "Sign in Here"
+  },
+
+  "DASHBOARD": {
+    "Happening Soon": "Happenings",
+    "See all": "See all",
+    "study":"Studies",
+    "pay to study": "Pay to Study",
+    "shop": "Shop",
+    "Live tv": "Live TV",
+    "news": "News",
+    "study time table": "Study Time Table",
+    "Schedule": "Schedule",
+    "Profile": "Profile",
+    "explore": "Explore",
+    "notifications": "Notification",
+    "transactions": "Transactions"
+  },
+
+  "RESET": {
+    "reset": "Reset Password",
+    "Username": "Username",
+    "Phonenumber":"Phone Number",
+    "or": "Or",
+    "email": "Email",
+    "submit": "SUBMIT",
+    "NoAccount": "Don't have and account?",
+    "SignUpHere": "Sign Up Here"
+  },
+
+  "LOGOUT": {
+    "logout": "LOG YOURSELF OUT",
+    "Username": "Username",
+    "password":"Password",
+    "log out": "LOG OUT",
+    "login here": "Log in here",
+    "NoAccount": "Don't have and account?",
+    "SignUpHere": "Sign Up Here"
+  },
+
+  "STUDYSECTIONS": {
+    "Anglophone Secondary": "Anglophone Sub Section",
+    "Francophone Secondary": "Francophone Sub Section",
+    "Competitive Entrance Exam":"Competitive Entrance Examninations",
+    "Diploma Examinations": "Diploma Examinations",
+    "Lecture Notes": "Lecture Notes and Power Point Slides",
+    "Past Examination Questions": "Past Examination Questions",
+    "Resources": "Textbooks, Workbooks and Manuals",
+    "study time table": "Study Time Table",
+    "extra": "Extra Activities"
+  },
+
+  "SUB": {
+    "science": "Sciences",
+    "arts":"Arts",
+    "technical": "Technicals",
+    "commercial": "Commercials",
+     "expand": "Expand",
+     "search": "Search a subject",
+     "searchvideo": "Search a video",
+     "days-left": "Days for renewal",
+     "others": "Other Videos"
+  },
+
+  "SORTED": {
+    "one": "Form One",
+    "two":"Arts",
+    "three": "Technicals",
+    "four": "Commercials",
+    "five": "Expand",
+    "six": "Sciences",
+    "seven":"Arts",
+
+    "6em": "Technicals",
+    "5em": "Commercials",
+    "4em": "Expand",
+    "3em": "Technicals",
+    "2nd": "Commercials",
+    "1er": "Expand",
+    "tle": "Technicals",
+
+    "HND1": "Commercials",
+    "HND2": "Expand",
+
+    "EE": "Entrance Examinations"
+  },
+
+  "PLAYER": {
+    "read description": "Read Description",
+    "repeat":"Repeat",
+    "share": "Share",
+    "bookmark": "Bookmarks",
+    "view": "View",
+    "view comments": "view",
+    "firstcomment": "Be first to comment",
+    "related": "Related Videos",
+    "comments": "comments",
+    "ask question":"Ask a Question"
+  },
+
+"TRANSACTIONS": {
+    "heading":"Pay to Use",
+    "account balance": "Account Balance",
+    "balance":"Balance",
+    "try": "Try 'Physics'",
+    "add": "ADD",
+    "added": "ADDED",
+    "remove": "REMOVE",
+    "total": "Total",
+    "makepayments": "Make payments",
+    "price": "Price/month: "
+  },
+
+  "PROFILE": {
+    "edit": "Edit Profile",
+    "statistics":"Statistics",
+    "contact": "Friends",
+    "edit acount info": "Edit Account Info",
+    "update": "UPDATE",
+    "check": "Check Account Balance"
+  }
+
+
+}

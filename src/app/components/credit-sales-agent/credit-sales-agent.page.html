@@ -1,0 +1,60 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>credit-sales-agent</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="row">
+    <div class="col-md-6 m-auto">
+        <div id="words">
+            <h3>Credit Sales Agent Account</h3>
+            <form (ngSubmit)="onCreditSalesAgentSubmit()">
+                <div class="form-group">
+                    <input [(ngModel)]="name" name="name" type="text" class="form-control" placeholder="Sales Agent Username" required>
+                </div>
+                <div class="form-group">
+                    <input [(ngModel)]="amount" name="amount" class="form-control" type="number" placeholder="Amount in FCFA" required>
+                </div>
+                <input type="submit" class="btn btn-info btn-lg" value="Credit Account">
+                <li class="list-inline-item" style="float: right;">
+                    <a [routerLink]="['/register']" class="btn btn-success btn-lg">Register</a>
+                </li>
+            </form>
+        </div>
+    </div>
+</div>
+</ion-content> -->
+
+
+<div class="divcolor">
+    <ion-buttons>
+        <ion-button>
+            <ion-back-button defaultHref="/manage-sales-agent"></ion-back-button>
+        </ion-button>
+    </ion-buttons>
+</div>
+<div class="container body1">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form (ngSubmit)="onCreditSalesAgentSubmit()" class="form-container">
+                <h2 class="form-title">Create sales Agent Account</h2>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <input [(ngModel)]="name" name="name" type="text" class="form-control" placeholder="Sales Agent Username" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input [(ngModel)]="amount" name="amount" class="form-control" type="number" placeholder="Amount in FCFA" required>
+                </div>
+
+
+                <button type="submit" class="btn btn-orange btn-lg btn-block">Credit Account</button>
+                <a [routerLink]="['/register']" class="" style="float: right; margin-top: 1rem;">Register</a>
+
+            </form>
+        </div>
+    </div>
+</div>

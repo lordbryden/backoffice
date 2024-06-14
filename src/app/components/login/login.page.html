@@ -1,0 +1,36 @@
+<div class="container body1">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <form (ngSubmit)="onLoginSubmit()" class="form-container">
+                <h2 class="form-title">ADMIN LOGIN</h2>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <ion-input [(ngModel)]="username" name="username" type="text" class="form-control" placeholder="Username" required>
+                            </ion-input>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <ion-input [(ngModel)]="password" name="password" type="password" placeholder="Password" value="NeverGonnaGiveYouUp" required="true">
+                                <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+                            </ion-input>
+                        </div>
+
+                    </div>
+                </div>
+
+                <input type="submit" class="btn btn-info btn-lg" value="Log In">
+                <li class="list-inline-item">
+                    <a [routerLink]="['/register']" class="" style="float: right; margin-top: 1rem;">Register</a>
+                </li>
+            </form>
+
+        </div>
+    </div>

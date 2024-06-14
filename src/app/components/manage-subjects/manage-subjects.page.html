@@ -1,0 +1,62 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>manage-subjects</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="demo-header">
+    <div class="demo-header-content">
+      <div class="container">
+        <h1>Create New Subjects and Managing Old Ones</h1>
+        <hr class="colored">
+        <h3>Add, Delete and Modify Subjects Records!</h3>
+        <ul class="list-inline cta-list">
+          <p>
+            <li class="list-inline-item">
+              <button class="btn btn-outline-info" (click)="createSubject()">Create New Subject</button>
+            </li>
+            <li class="list-inline-item">
+              <button class="btn btn-outline-success" (click)="modifySubject()">Manage Existing Subjects</button>
+            </li>
+          </p>
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</ion-content> -->
+
+
+<ion-content [fullscreen]="true">
+
+    <div class="margindiv">
+        <ion-buttons>
+            <ion-button>
+                <ion-back-button defaultHref="/tabs"></ion-back-button>
+            </ion-button>
+        </ion-buttons>
+
+        <div class="demo-header">
+            <div class="demo-header-content">
+                <div class="ion-margin ion-text-center">
+                    <h1>Create New Subjects and Managing Old Ones</h1>
+                    <hr class="colored">
+                    <h3>Add, Delete and Modify Subjects Records!</h3>
+
+                    <div class="button-container">
+                        <ion-button (click)="createSubject()" class="buttonIcon">
+                            <ion-icon name="add" size="large"></ion-icon>
+                            Create New Subject
+                        </ion-button>
+                        <ion-button (click)="modifySubject()" class="buttonIcon">
+                            <ion-icon name="book-outline" size="large"></ion-icon>
+                            Manage Existing Subjects
+                        </ion-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ion-content>

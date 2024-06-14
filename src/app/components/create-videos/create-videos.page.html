@@ -1,0 +1,151 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>create-videos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="row">
+    <div class="col-md-12 m-auto">
+
+
+
+      <form (ngSubmit)="onCreateVideoSubmit()" #userform="ngForm" style="float: rightS; padding-right:4%; padding-top:1%; width:40%">
+
+        <h2 style="font-weight: bold">CREATE NEW VIDEO</h2>
+
+        <div class="form-group">
+          <input type="text" [(ngModel)]="title" name="title" class="form-control" placeholder="Video Title" required>
+        </div>
+
+        <div class="form-group">
+          <input [(ngModel)]="topic" name="topic" class="form-control" type="text" placeholder="Totpic" required>
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="subsection">Sub Section</label>
+          </div>
+
+          <select [(ngModel)]="subsection" name="subsection" type="text" class="custom-select" id="subsection">
+            <option *ngFor="let sub of subsectionlist" [value]="sub">{{sub}}</option>
+          </select>
+
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="subsection">Subject</label>
+          </div>
+          <select [(ngModel)]="subject" name="subject" type="text" class="custom-select" id="subject">
+            <option *ngFor="let subject of subjects"[value]="subject.subjectTitle">{{subject.subjectTitle}}</option>
+          </select>
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="class">Class</label>
+          </div>
+          <select [(ngModel)]="class" name="class" class="custom-select" id="class">
+            <option *ngFor="let classes of classlist" [value]="classes">{{classes}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input [(ngModel)]="description" name="description" class="form-control" type="text" placeholder="Video Description" required>
+        </div>
+
+        <div class="form-group">
+          <input name="picture" class="form-control" type="file" (change)="onPictureFileSelected($event)" id = "picture">
+          <label for="picture">Select Thumbnail</label>
+          <img src="{{pictureurl}}" alt="picture Thumbnail" style="width: 250px; height: 200px">
+        </div>
+
+        <div class="form-group">
+          <input name="topic" class="form-control" type="file" (change)="onVideoFileSelected($event)" id = "video-lecture">
+          <label for="video-lecture">Select Video File</label>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg" > CREATE </button>
+      </form>
+    </div>
+  </div>
+</ion-content> -->
+
+
+
+
+<div class="divcolor">
+    <ion-buttons>
+        <ion-button>
+            <ion-back-button defaultHref="/manage-videos"></ion-back-button>
+        </ion-button>
+    </ion-buttons>
+</div>
+<div class="container body1">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form (ngSubmit)="onCreateVideoSubmit()" #userform="ngForm" class="form-container">
+                <h2 class="form-title">CREATE NEW VIDEO</h2>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" [(ngModel)]="title" name="title" class="form-control" placeholder="Video Title" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input [(ngModel)]="topic" name="topic" class="form-control" type="text" placeholder="Totpic" required>
+                </div>
+                <div class="form-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="subsection">Sub Section</label>
+                    </div>
+
+                    <select [(ngModel)]="subsection" name="subsection" type="text" class="custom-select" id="subsection">
+                      <option *ngFor="let sub of subsectionlist" [value]="sub">{{sub}}</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="subsection">Subject</label>
+                    </div>
+                    <select [(ngModel)]="subject" name="subject" type="text" class="custom-select" id="subject">
+            <option *ngFor="let subject of subjects"[value]="subject.subjectTitle">{{subject.subjectTitle}}</option>
+          </select>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="class">Class</label>
+                    </div>
+                    <select [(ngModel)]="class" name="class" class="custom-select" id="class">
+                  <option *ngFor="let classes of classlist" [value]="classes">{{classes}}</option>
+                </select>
+                </div>
+
+                <div class="form-group">
+                    <input [(ngModel)]="description" name="description" class="form-control" type="text" placeholder="Video Description" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="picture">Select Thumbnail</label>
+
+                    <input name="picture" class="form-control" type="file" (change)="onPictureFileSelected($event)" id="picture">
+                    <img src="{{pictureurl}}" alt="picture Thumbnail" style="width: 250px; height: 200px">
+                </div>
+
+
+                <div class="form-group">
+                    <span>Select Video</span>
+                    <input name="topic" class="form-control" type="file" (change)="onVideoFileSelected($event)" id="video-lecture">
+                </div>
+
+                <button type="submit" class="btn btn-orange btn-lg btn-block">Create </button>
+            </form>
+        </div>
+    </div>
+</div>

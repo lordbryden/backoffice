@@ -1,0 +1,84 @@
+/* Card styles */
+
+ion-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-image: url('/assets/img/manageStrdents.webp');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+ion-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #1e96ce;
+    /* Light up the card on hover */
+}
+
+ion-card-header {
+    padding: 16px;
+}
+
+ion-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* Grid styles */
+
+ion-grid {
+    padding: 20px;
+    max-width: 50rem;
+    // margin-top: 2rem;
+    background-image: url('/assets/img/manageStrdents.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gridimg {}
+
+ion-row {
+    margin-bottom: 20px;
+}
+
+ion-col {
+    padding: 10px;
+}
+
+
+/* Color styles */
+
+ion-card.secondary {
+    --ion-color-secondary: #26a69a;
+    /* Teal color */
+}
+
+ion-card.secondary ion-card-title {
+    color: #fff;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    ion-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    ion-col {
+        flex: 0 0 100%;
+        max-width: 50%;
+    }
+}

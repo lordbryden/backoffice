@@ -1,0 +1,170 @@
+{
+  "LANDING":{
+    "slogan": "Etudes illimitées",
+    "started": "Commencer",
+    "back": "Retour aux études",
+    "privacy": "Lire la politique de confidentialité"
+
+  },
+
+  "HOME": {
+    "loginwith": "Connectez avec",
+    "LoginWithUsername": "Nom d'utilisateur",
+    "LoginWithPhonenumber": "Numéro de téléphone",
+    "Register": "Inscrivez Vous",
+    "socialMedia": "Ou par les réseaux sociaux"
+  },
+
+  "LOGIN": {
+    "SignIn": "Connexion",
+    "Username": "Nom d'utilisateur",
+    "Phonenumber":"Numéro de téléphone",
+    "Password": "Mot de passe",
+    "Forgot": "Mot de passe oublié?",
+    "clickhere": "Cliquez ici",
+    "signin": "Connexion",
+    "AllDeviceLogout": "Déconnectez de tous les appareils",
+    "NoAccount": "Vous n'avez pas de compte?",
+    "SignUpHere": "inscrivez-vous ici"
+  },
+
+  "REGISTER": {
+    "create": "Créer un compte",
+    "name": "Nom et prénom",
+    "Username": "Nom d'utilisateur",
+    "Email": "E-mail",
+    "Phonenumber":"Numéro de téléphone",
+    "Password": "Mot de passe",
+    "Confirm": "Confirmez Mot de passe",
+    "Agree": "Accepter au ",
+    "terms": "termes",
+    "and": "et",
+    "Conditions": "conditions",
+    "register": "INSCRIRE",
+    "HaveAccount": "Avez vous déjà un compte?",
+    "SignUpHere": "connecter ici"
+  },
+
+  "RESET": {
+    "reset": "Réinitialiser le Mot de passe",
+    "Username": "Nom d'utilisateur",
+    "Phonenumber":"Numéro de téléphone",
+    "or": "Ou",
+    "email": "E-mail",
+    "submit": "SOUMETTRE",
+    "NoAccount": "Vous n'avez pas de compte?",
+    "SignUpHere": "inscrivez-vous ici"
+  },
+
+  "LOGOUT": {
+    "logout": "DÉCONNECTEZ-VOUS",
+    "Username": "Nom d'utilisateur",
+    "password":"Mot de passe",
+    "log out": "DÉCONNECTER",
+    "login here": "Connectez-vous ici",
+    "NoAccount": "Vous n'avez pas de compte?",
+    "SignUpHere": "inscrivez-vous ici"
+  },
+
+  "DASHBOARD": {
+    "Happening Soon": "Événements",
+    "See all": "voir tout",
+    "study":"étude",
+    "pay to study": "abonner",
+    "shop": "boutique en ligne",
+    "Live tv": "TV en direct",
+    "news": "Nouvelles",
+    "study time table": "Calendrier",
+    "Schedule": "Horaire quotidien",
+    "Profile": "Profil",
+    "explore": "Explorer",
+    "notifications": "Notification",
+    "transactions": "Transactions"
+  },
+
+  "STUDYSECTIONS": {
+    "Anglophone Secondary": "Sous-section anglophone",
+    "Francophone Secondary": "Sous-section francophone",
+    "Competitive Entrance Exam":"Concours d'entrée",
+    "Diploma Examinations": "Examens de diplôme",
+    "Lecture Notes": "Notes de cours et diapositives Power Point",
+    "Past Examination Questions": "Questions d'examen antérieur",
+    "Resources": "Manuels scolaires et cahiers d'exercices",
+    "extra": "Activités supplémentaires"
+  },
+
+  "SUB": {
+    "science": "Matières scientifiques",
+    "arts":"Matières artistiques",
+    "technical": "Matières techniques ",
+    "commercial": "Matières commerciaux",
+     "expand": "Élargir",
+     "search": "Rechercher un sujet",
+     "searchvideo": "Rechercher un vidéo",
+     "days-left": "Jours de renouvellement",
+     "others": "Autres vidéos"
+
+  },
+
+  "SORTED": {
+    "one": "Form One",
+    "two":"Arts",
+    "three": "Technicals",
+    "four": "Commercials",
+    "five": "Expand",
+    "six": "Sciences",
+    "seven":"Arts",
+
+    "6em": "Technicals",
+    "5em": "Commercials",
+    "4em": "Expand",
+    "3em": "Technicals",
+    "2nd": "Commercials",
+    "1er": "Expand",
+    "tle": "Technicals",
+
+    "HND1": "Commercials",
+    "HND2": "Expand",
+
+    "EE": "Entrance Examinations"
+  },
+
+  "PLAYER": {
+    "read description": "Lire la description",
+    "repeat":"Répéter",
+    "share": "Partager",
+    "bookmark": "Signets",
+    "view": "Vues",
+    "view comments": "Voir",
+    "related": "Vidéo liés",
+    "firstcomment": "Soyez le premier à commenter",
+    "comments": "Commentaires",
+    "ask question":"Poser une question"
+  },
+
+"TRANSACTIONS": {
+    "heading":"Payer pour utiliser",
+    "account balance": "Solde du compte",
+    "balance":"Solde",
+    "try": "Essayez 'Physique'",
+    "add": "AJOUTER",
+    "added": "AJOUTÉ",
+    "remove": "RETIRER",
+    "total": "Total",
+    "makepayments": "Effectuer le paiement",
+    "price": "Prix/mois: "
+  },
+
+  "PROFILE": {
+    "edit": "Editer le profil",
+    "statistics":"Statistiques",
+    "contact": "Amis",
+    "edit acount info": "Modifier le compte",
+    "update": "METTRE À JOUR",
+    "check": "Vérifier le solde du compte"
+  }
+
+
+
+
+}

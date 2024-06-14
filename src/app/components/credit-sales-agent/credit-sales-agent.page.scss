@@ -1,0 +1,98 @@
+.body1 {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ion-back-button::before {
+    content: "";
+    /* Required for creating a pseudo-element */
+    position: absolute;
+    /* Position the border absolutely */
+    top: 50%;
+    /* Position the border vertically centered */
+    left: 50%;
+    /* Position the border horizontally centered */
+    transform: translate(-50%, -50%);
+    /* Adjust the position of the border */
+    width: 40px;
+    /* Set the width of the border circle */
+    height: 40px;
+    /* Set the height of the border circle */
+    border-radius: 50%;
+    /* Make the border circular */
+    border: 2px solid orange;
+    /* Set the border style and color */
+    padding: 4px;
+    /* Add some padding between the button and the border */
+}
+
+.divcolor {
+    background-color: #f2f2f2;
+    padding-top: 3rem;
+    padding-left: 3rem
+}
+
+.btn:hover {
+    background-color: #cc5200;
+}
+
+.topmarginforgotP {
+    margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 20px;
+    }
+}
+
+.custom-select {
+    width: 100%;
+    height: 2.4rem;
+    border-color: #b3b3b3;
+    background-color: white;
+    border-radius: 0.3rem;
+}

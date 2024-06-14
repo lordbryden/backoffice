@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+
+    <div class="margindiv">
+        <ion-buttons>
+            <ion-button>
+                <ion-back-button defaultHref="/tabs"></ion-back-button>
+            </ion-button>
+        </ion-buttons>
+
+        <div class="demo-header">
+            <div class="demo-header-content">
+                <div class="ion-margin ion-text-center">
+                    <h1>Create New Students and Manage Old Students</h1>
+                    <hr class="colored">
+                    <h3>Add, Delete and Modify Students Records!</h3>
+
+                    <div class="button-container">
+                        <ion-button (click)="createStudent()" class="buttonIcon">
+                            <ion-icon name="add" size="large"></ion-icon>
+                            Create New Student
+                        </ion-button>
+                        <ion-button (click)="modifyStudent()" class="buttonIcon">
+                            <ion-icon name="person-outline" size="large"></ion-icon>
+                            Manage Existing Students
+                        </ion-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ion-content>
